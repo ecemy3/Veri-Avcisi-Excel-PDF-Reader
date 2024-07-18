@@ -1,0 +1,154 @@
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\proje.dll.config
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\proje.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\proje.pdb
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\csc.exe
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\csc.exe.config
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\csc.rsp
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\csi.exe
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\csi.exe.config
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\csi.rsp
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.AppContext.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Console.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Net.Http.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\vbc.exe
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\vbc.exe.config
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\vbc.rsp
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Helpers.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Mvc.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Razor.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Webpages.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Webpages.Razor.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Razor.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Webpages.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Webpages.Razor.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Helpers.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\System.Web.Mvc.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\obj\Debug\proje.csproj.AssemblyReference.cache
+C:\Users\Mustafa Dizar\Desktop\proje\proje\obj\Debug\proje.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa Dizar\Desktop\proje\proje\obj\Debug\proje.csproj.Up2Date
+C:\Users\Mustafa Dizar\Desktop\proje\proje\obj\Debug\proje.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\obj\Debug\proje.pdb
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\EntityFramework.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\EntityFramework.SqlServer.dll
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\EntityFramework.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\bin\EntityFramework.SqlServer.xml
+C:\Users\Mustafa Dizar\Desktop\proje\proje\obj\Debug\proje.csproj.ResolveComReference.cache
+C:\Users\Ecemm\Desktop\proje\proje\bin\proje.dll.config
+C:\Users\Ecemm\Desktop\proje\proje\bin\proje.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\proje.pdb
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\csc.exe
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\csc.exe.config
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\csc.rsp
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\csi.exe
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\csi.exe.config
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\csi.rsp
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.AppContext.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Console.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.IO.Compression.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Net.Http.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.ValueTuple.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\vbc.exe
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\vbc.exe.config
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\vbc.rsp
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ecemm\Desktop\proje\proje\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ecemm\Desktop\proje\proje\bin\EntityFramework.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\EntityFramework.SqlServer.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Helpers.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Mvc.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Razor.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Webpages.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ecemm\Desktop\proje\proje\bin\EntityFramework.xml
+C:\Users\Ecemm\Desktop\proje\proje\bin\EntityFramework.SqlServer.xml
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Razor.xml
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Webpages.xml
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Helpers.xml
+C:\Users\Ecemm\Desktop\proje\proje\bin\System.Web.Mvc.xml
+C:\Users\Ecemm\Desktop\proje\proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ecemm\Desktop\proje\proje\obj\Debug\proje.csproj.AssemblyReference.cache
+C:\Users\Ecemm\Desktop\proje\proje\obj\Debug\proje.csproj.ResolveComReference.cache
+C:\Users\Ecemm\Desktop\proje\proje\obj\Debug\proje.csproj.CoreCompileInputs.cache
+C:\Users\Ecemm\Desktop\proje\proje\obj\Debug\proje.csproj.Up2Date
+C:\Users\Ecemm\Desktop\proje\proje\obj\Debug\proje.dll
+C:\Users\Ecemm\Desktop\proje\proje\obj\Debug\proje.pdb

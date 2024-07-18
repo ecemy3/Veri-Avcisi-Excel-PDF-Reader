@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewBag.Title = "ExcellUpdate";
+    Layout = "~/Views/Shared/Layout/_Layout.cshtml";
+}
+@model proje.Models.Product
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://jeremyfagis.github.io/dropify/dist/js/dropify.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://jeremyfagis.github.io/dropify/dist/css/dropify.min.css">
+<div class="form-grids row widget-shadow" data-example-id="basic-forms">
+    <div class="form-title">
+        <h4>Excelden Veri Aktarımı</h4>
+    </div>
+    <div class="form-body">
+        <form id="fileUploadForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Excel dosyasını seçiniz.</label>
+                <input type="file" name="file" class="dropify" required />
+            </div>
+            <button type="submit" id="triggerSubmit" class="btn btn-default btn-block">Onayla</button>
+        </form>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    $('.dropify').dropify({
+        messages: {
+            'default': 'Güncellemek istediğiniz ürünlerin detaylarının olduğu excel dosyasını sürükleyiniz.',
+            'replace': 'Değiştirmek için sürükleyip bırakın veya tıklayın',
+            'remove': 'Sil',
+            'error': 'Hay aksi, yanlış bir şey oldu.'
+        },
+        error: {
+        'fileSize': 'Dosya boyutu çok büyük ({{ value }} max).',
+        'fileFormat': 'Dosya biçimine izin verilmiyor ({{ value }} sadece).'
+    }
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('#triggerSubmit').click(function (e) {
+            e.preventDefault();
+
+            Swal.fire({
+                title: 'Emin misiniz?',
+                text: "Excel verileri yüklediğiniz dosya ile değiştirilecektir.",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Evet, yükle!',
+                cancelButtonText: 'Hayır, iptal et'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    var formData = new FormData($('#fileUploadForm')[0]);
+
+                    $.ajax({
+                        url: '/Management/ExcellUpdate', // Action method URL
+                        type: 'POST',
+                        data: formData,
+                        contentType: false,
+                        processData: false,
+                        beforeSend: function () {
+                            Swal.fire({
+                                icon: 'info',
+                                title: 'Lütfen bekleyin !',
+                                html: 'Veriler işleniyor. Bu biraz zaman alabilir. Sayfayı kapatmayınız',// add html attribute if you want or remove
+                                allowOutsideClick: false,
+                                showConfirmButton: false,
+                                didOpen: () => {
+                                    Swal.showLoading()
+                                },
+                            });
+                        },
+                        success: function (response) {
+                            Swal.fire(
+                                'Yüklendi!',
+                                'Dosyanız başarıyla yüklendi.',
+                                'success'
+                            );
+                        },
+                        error: function (xhr, status, error) {
+                            Swal.fire(
+                                'Hata!',
+                                'Dosya yüklenirken bir hata oluştu: ' + error,
+                                'error'
+                            );
+                        }
+                    });
+                }
+            })
+        });
+    });
+</script>
+
+
+
+

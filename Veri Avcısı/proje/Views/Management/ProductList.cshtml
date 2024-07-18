@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewBag.Title = "ProductList";
+    Layout = "~/Views/Shared/Layout/_Layout.cshtml";
+}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.11.5/datatables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/dt-1.11.5/datatables.min.css" />
+<link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/v/ju/jszip-2.5.0/b-2.2.2/b-html5-2.2.2/b-print-2.2.2/datatables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.colVis.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
+<link href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css" rel="stylesheet" />
+<div class="table-responsive">
+    <table id="productList" class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Ürün Kodu</th>
+                <th>Ürün Adı</th>
+                <th>Birim Fiyatı</th>
+                <th>Ürün Detayı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr></tr>
+        </tbody>
+
+    </table>
+</div>
+
+<script>
+    var table;
+    $(document).ready(function () {
+        table = $('#productList').DataTable({
+            lengthChange: false,
+            "ajax": {
+                "url": "/Management/ProductListJson/",
+                "type": "GET",
+                "datatype": "json",
+            },
+            "columns": [
+                { "data": "ProductCode" },
+                { "data": "ProductName" },
+                {
+                    "data": "UnitPrice"
+                },
+                { "data": "ProductDetail" },
+            ],
+            "bLengthChange": true,
+            "language": {
+                "info": "_TOTAL_ kayıttan _START_ - _END_ kayıt gösteriliyor.",
+                "infoEmpty": "Gösterilecek hiç kayıt yok.",
+                "loadingRecords": "Kayıtlar yükleniyor.",
+                "zeroRecords": "Tablo boş",
+                "search": "Arama:",
+                "lengthMenu": "_MENU_ kayıt listeleniyor",
+                "infoFiltered": "(toplam _MAX_ kayıttan filtrelenenler)",
+                "emptyTable": "Bu tabloda herhangi bir veri yok.",
+                "buttons": {
+                    "copyTitle": "Panoya kopyalandı.",
+                    "copySuccess": "Panoya %d satır kopyalandı",
+                    "copy": "Kopyala",
+                    "print": "Yazdır",
+                    "colvis": "Sütun Görünürlüğü",
+                },
+
+                "paginate": {
+                    "first": "İlk",
+                    "previous": "Önceki",
+                    "next": "Sonraki",
+                    "last": "Son"
+                },
+            },
+            "dom": 'lBfrtip',
+            "buttons": [
+                {
+                    "extend": 'excelHtml5',
+                    "exportOptions": {
+                        "columns": ':visible'
+                    }
+                },
+                {
+                    "extend": 'pdfHtml5',
+                    "exportOptions": {
+                        "columns": [1, 2, 3]
+                    }
+                },
+                'colvis'
+            ]
+        });
+    });
+</script>""
+
